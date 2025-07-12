@@ -33,7 +33,6 @@ export default function Shop() {
 				myData.map((product) => (
 					<ProductDetails
 						key={product.id}
-						id={product.id}
 						imageSource={product.image}
 						title={product.title}
 						price={product.price}
