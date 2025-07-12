@@ -10,4 +10,6 @@ The Shopping Cart web application is developed to demonstrate single page applic
 - ReactJs
 - ViteJs
 
+## Resources
 
+[Fake API](https://fakestoreapi.com/) - for fake products rendering
