@@ -4,16 +4,17 @@ import './App.css';
 import NavigationBar from './components/NavigationBar';
 
 const CartItemContext = createContext({
-  item: 0,
-  setItem: () => {},
+	item: 0,
+	setItem: () => {},
 });
 
 export default function App() {
 	const [item, setItem] = useState(0);
+	const [cart, setCart] = useState([]);
 
 	return (
 		<div>
-			<CartItemContext.Provider value={{ item, setItem }}>
+			<CartItemContext.Provider value={{ item, setItem, cart, setCart }}>
 				<NavigationBar />
 				<main className='content'>
 					<Outlet />
@@ -24,4 +25,3 @@ export default function App() {
 }
 
 export { CartItemContext };
-
