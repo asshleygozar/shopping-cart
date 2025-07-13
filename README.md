@@ -23,4 +23,4 @@ The Shopping Cart web application is developed to demonstrate single page applic
 
 ## Resources
 
-[Fake API](https://fakestoreapi.com/) - for fake products data
+[Fake API](https://fakestoreapi.com/) - for fake data products
