@@ -10,6 +10,7 @@
 
 .main-navigation-container, .cart-navigation-container {
     display: flex;
+    align-items: center;
     gap: 12px;
     list-style: none;
 }
@@ -18,7 +19,6 @@
     font-family: var(--regular-text);
     color: var(--dark-black);
     text-decoration: none;
-    padding-bottom: 8px;
     transition: border ease-in-out;
 }
 
@@ -27,5 +27,6 @@
     border-bottom-left-radius: 3px;
     border-bottom-right-radius: 3px;
 }
+
 
 
