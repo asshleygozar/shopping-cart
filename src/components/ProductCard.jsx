@@ -7,7 +7,6 @@ export default function ProductDetails({
 	imageSource,
 	title,
 	price,
-	description,
 }) {
 	const [quantity, setQuantity] = useState(1);
 	const { item, setItem, setCart } = useContext(CartItemContext);
@@ -18,7 +17,6 @@ export default function ProductDetails({
 			productImage: imageSource,
 			productTitle: title,
 			productPrice: price,
-			productDescription: description,
 			productQuantity: quantity,
 		};
 		setItem(item + 1);
