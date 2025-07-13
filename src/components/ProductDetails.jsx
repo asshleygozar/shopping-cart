@@ -10,7 +10,7 @@ export default function ProductDetails({
 }) {
 	const [quantity, setQuantity] = useState(1);
 	const { item, setItem, setCart } = useContext(CartItemContext);
-   // Fix cart checkout logic | it is note displaying
+  
 	const addToCart = () => {
 		const productDetails = {
 			productId: id,
