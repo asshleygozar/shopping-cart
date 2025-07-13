@@ -22,7 +22,7 @@
     transition: border ease-in-out;
 }
 
-.main-navigation:hover {
+.main-navigation-link:hover {
     border-bottom: 3px solid var(--accent-blue);
     border-bottom-left-radius: 3px;
     border-bottom-right-radius: 3px;
