@@ -87,7 +87,7 @@ export function ProductCart({
 		<h2>{price}</h2>
 		<p>{description}</p>
 		<p>Quantity: {quantity}</p>
-		<button onClick={() => deleteCartItem()}>Remove to cart</button>
+		<button onClick={() => deleteCartItem()}>Remove</button>
 	</div>
 	);
 }

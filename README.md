@@ -19,7 +19,7 @@ The Shopping Cart web application is developed to demonstrate single page applic
 - User can increase or decrease the quantity of the chosen product item to enable bulk or single product item checkout.
 
 ### Remove product items from the cart
-- User can remove the chosen product item from the cart by clicking the 'remove to cart' button, allowing the user to remove undesired product items from the cart.
+- User can remove the chosen product item from the cart by clicking the 'remove' button, allowing the user to remove undesired product items from the cart.
 
 ## Resources
 
