@@ -1,0 +1,94 @@
+@import url(../index.css);
+
+.product-card {
+    border-radius: 8px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 250px 1fr;
+    background-color: var(--pure-white);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.product-card > .product-image {
+    object-fit: contain;
+    object-position: center;
+    width: 200px;
+    height: 200px;
+    place-self: center;
+}
+
+.product-card > .product-detail-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 50px 50px;
+    gap: 12px;
+    padding: 8px 12px;
+    border-top: 1px solid #252525;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;   
+}
+
+.product-detail-container > .product-detail {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 4px;
+}
+
+.product-detail-container > .product-detail > .product-title {
+    font-family: var(--header-text);
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.product-detail-container > .product-detail > .product-price {
+    font-family: var(--regular-text);
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.product-detail-container > .product-quantity-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 16px;
+}
+
+.product-detail-container > .product-quantity-container > .quantity-button {
+    padding: 6px 16px;
+    background-color: var(--dark-black);
+    color: var(--pure-white);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.product-detail-container > .product-quantity-container > .product-quantity {
+    font-family: var(--regular-text);
+    font-size: 0.9rem;
+}
+
+.product-detail-container > .add-to-cart-button {
+    padding: 8px 16px;
+    background-color: var(--dark-black);
+    color: white;
+    font-family: var(--regular-text);
+    transition: background-color 0.1s ease-in-out;
+}
+
+.product-detail-container > .add-to-cart-button:hover {
+    background-color: #323645;
+}
+
+.remove-button {
+    font-family: var(--regular-text);
+    color: var(--pure-white);
+    background-color: rgb(157, 27, 27);
+    border-radius: 8px;
+    outline: var(--pure-white);
+    transition: background-color;
+}
+
+.remove-button:hover {
+    background-color: rgb(90, 27, 27);
+}
+
+
+
