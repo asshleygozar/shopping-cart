@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
-import ProductDetails from '../components/ProductDetails';
+import ProductDetails from '../components/ProductCard.jsx';
+import '../styles/shop.css';
 
 export default function Shop() {
 	const [myData, setData] = useState(null);
@@ -25,21 +26,23 @@ export default function Shop() {
 	}, []);
 
 	return (
-		<section>
-			<h1>Shop</h1>
-			{error && <div>Error loading the page</div>}
-			{loading && <div>Loading...</div>}
-			{myData &&
-				myData.map((product) => (
-					<ProductDetails
-						key={product.id}
-						id={product.id}
-						imageSource={product.image}
-						title={product.title}
-						price={product.price}
-						description={product.description}
-					/>
-				))}
+		<section className='shop-page'>
+			<h1 className='shop-header'>Shop</h1>
+			<main className='product-container'>
+				{error && <div>Error loading the page</div>}
+				{loading && <div>Loading...</div>}
+				{myData &&
+					myData.map((product) => (
+						<ProductDetails
+							key={product.id}
+							id={product.id}
+							imageSource={product.image}
+							title={product.title}
+							price={product.price}
+							description={product.description}
+						/>
+					))}
+			</main>
 		</section>
 	);
 }
