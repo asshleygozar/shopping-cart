@@ -10,6 +10,17 @@ The Shopping Cart web application is developed to demonstrate single page applic
 - ReactJs
 - ViteJs
 
+## Features
+
+### Place products to cart
+- User can place their product to cart page by clicking the 'add to cart' button, allowing the user to keep track of chosen products.
+
+### Adjust product item quantity
+- User can increase or decrease the quantity of the chosen product item to enable bulk or single product item checkout.
+
+### Remove product items from the cart
+- User can remove the chosen product item from the cart by clicking the 'remove to cart' button, allowing the user to remove undesired product items from the cart.
+
 ## Resources
 
 [Fake API](https://fakestoreapi.com/) - for fake products rendering
