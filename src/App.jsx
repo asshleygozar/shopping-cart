@@ -13,13 +13,15 @@ export default function App() {
 	const [cart, setCart] = useState([]);
 
 	return (
-		<div>
-			<CartItemContext.Provider value={{ item, setItem, cart, setCart }}>
-				<NavigationBar />
-				<main className='content'>
-					<Outlet />
-				</main>
-			</CartItemContext.Provider>
+		<div className='wrapper'>
+			<div className='content'>
+				<CartItemContext.Provider value={{ item, setItem, cart, setCart }}>
+					<NavigationBar />
+					<main className='main-content'>
+						<Outlet />
+					</main>
+				</CartItemContext.Provider>
+			</div>
 		</div>
 	);
 }
