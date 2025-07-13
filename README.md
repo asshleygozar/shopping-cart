@@ -1,6 +1,11 @@
 # Shopping Cart
 The Shopping Cart web application is developed to demonstrate single page application (SPA). The application also use client-side routing for fast data loading and fetching allowing the application to always keep in sync and improve user experience and performance. You can visit the website live here at vercel [Shopping cart](https://shopping-cart-woad-gamma.vercel.app/).
 
+## Website layout
+![Home page](/demo/home_page_ui.png)
+![Shop page](/demo/shop_page_ui.png)
+![Cart page](/demo/cart_page_ui.png)
+
 ## Technologies
 
 ### Front-End
