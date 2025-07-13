@@ -36,7 +36,7 @@ export default function NavigationBar() {
 					</Link>
 				</li>
 				<li>
-					<p className='cart-navigation-link'>Items: {item}</p>
+					<p className='cart-navigation-link'>Item: {item}</p>
 				</li>
 			</ul>
 		</nav>
