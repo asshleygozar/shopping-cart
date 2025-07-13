@@ -1,0 +1,42 @@
+@import url(../index.css);
+
+.home-page {
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+    gap: 18px;
+}
+
+.home-page > header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-page > header > h1 {
+    font-family: var(--header-text);
+    font-size: 4.5rem;
+    font-weight: 600;
+}
+
+.home-page > header > h2 {
+    font-family: var(--header-text);
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.home-page > .shop-navigation-link > .shop-button {
+    font-family: var(--regular-text);
+    font-size: 1rem;
+    color: var(--pure-white);
+    background-color: var(--dark-black);
+    padding: var(--vertical-padding) var(--horizontal-padding);
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.home-page > .shop-navigation-link > .shop-button:hover {
+    background-color: var(--accent-blue);
+    transform: scale(1.1);
+}
