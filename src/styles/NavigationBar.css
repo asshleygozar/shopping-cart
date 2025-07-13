@@ -1,0 +1,31 @@
+@import url(../index.css);
+
+.navigation-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--horizontal-padding);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.main-navigation-container, .cart-navigation-container {
+    display: flex;
+    gap: 12px;
+    list-style: none;
+}
+
+.main-navigation-link, .cart-navigation-link {
+    font-family: var(--regular-text);
+    color: var(--dark-black);
+    text-decoration: none;
+    padding-bottom: 8px;
+    transition: border ease-in-out;
+}
+
+.main-navigation:hover {
+    border-bottom: 3px solid var(--accent-blue);
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+
